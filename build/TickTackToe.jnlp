@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://chmielua.cba.pl/tick/" href="TickTackToe.jnlp" spec="1.0+">
+    <information>
+        <title>KolkoKrzyzyk</title>
+        <vendor>nonus25</vendor>
+        <homepage href=""/>
+        <description>KolkoKrzyzyk</description>
+        <description kind="short">KolkoKrzyzyk</description>
+    </information>
+<update check="background"/>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar href="KolkoKrzyzyk.jar" main="true"/>
+    </resources>
+    <application-desc main-class="kolkokrzyzyk.KolkoKrzyzyk">
+    </application-desc>
+</jnlp>
